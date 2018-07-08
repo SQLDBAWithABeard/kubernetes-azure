@@ -49,4 +49,6 @@ spec:
 
   kubectl get deployments
 
+  kubectl create -f sqlserver.yml
+
   az group delete --name beardkubes
