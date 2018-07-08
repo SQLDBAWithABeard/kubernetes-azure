@@ -13,12 +13,12 @@ spec:
     spec:
       containers:
       - name: sqlserver1
-        image: microsoft/mssql-server-linux:latest
+        image: beardacr.azurecr.io/bearddevimage:latest
         ports:
         - containerPort: 1433
         env:
         - name: SA_PASSWORD
-          value: "Testing1122"
+          value: "Password01"
         - name: ACCEPT_EULA
           value: "Y"
 ---
